@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Rounded rectangle with light fill and dark border -->
+  <rect x="4" y="4" width="184" height="184" rx="36" ry="36"
+        fill="#f1f5f9" stroke="#475569" stroke-width="4"/>
+
+  <!-- Monospace lowercase "m" -->
+  <text x="96" y="118"
+        font-family="ui-monospace, SFMono-Regular, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+        font-size="115"
+        font-weight="500"
+        text-anchor="middle"
+        fill="#475569">m</text>
+</svg>

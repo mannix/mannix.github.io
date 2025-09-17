@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The internet home of MIKe manNIX">
+  <meta name="author" content="Miknix">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111827" media="(prefers-color-scheme: dark)">
+
+  <!-- Open Graph meta tags for social media sharing -->
+  <meta property="og:title" content="miknix dot net">
+  <meta property="og:description" content="The internet home of MIKe manNIX">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="miknix dot net">
+  <meta name="twitter:description" content="The internet home of MIKe manNIX">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg">
+  <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.svg">
+  <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg">
+
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind CSS Configuration -->
+  <script src="tailwind.config.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Dark mode script -->
+  <script>
+    // Apply dark mode based on system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  </script>
+
+  <title>miknix dot net</title>
+</head>
+
+<body class="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
+  <!-- Header -->
+  <header
+    class="bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between px-3">
+    <a href="/"
+      class="font-mono text-sm font-medium flex flex-col leading-tight border border-slate-300 dark:border-slate-600 rounded p-3 my-3 transition-all duration-300 hover:shadow-sm cursor-pointer group no-underline">
+      <div>
+        <span
+          class="text-slate-200 dark:text-slate-700 group-hover:text-slate-300 group-hover:dark:text-slate-600 transition-colors duration-300">···</span><span
+          class="text-slate-700 dark:text-slate-300">mik</span><span
+          class="text-slate-200 dark:text-slate-700 group-hover:text-slate-500 group-hover:dark:text-slate-400 transition-colors duration-300">e</span>
+      </div>
+      <div>
+        <span
+          class="text-slate-200 dark:text-slate-700 group-hover:text-slate-500 group-hover:dark:text-slate-400 transition-colors duration-300">man</span><span
+          class="text-slate-700 dark:text-slate-300">nix</span><span
+          class="text-slate-200 dark:text-slate-700 group-hover:text-slate-300 group-hover:dark:text-slate-600 transition-colors duration-300">·</span>
+      </div>
+    </a>
+
+    <!-- Navigation Links -->
+    <nav class="flex gap-4">
+      <a href="mailto:mike@miknix.net"
+        class="font-mono text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors duration-300">
+        [ mailto ]
+      </a>
+      <a href="https://github.com/mannix" target="_blank" rel="noopener noreferrer"
+        class="font-mono text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors duration-300">
+        [ github ]
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+  </main>
+</body>
+
+</html>
